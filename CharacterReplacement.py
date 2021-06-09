@@ -1,0 +1,5 @@
+my_str = input("Enter your word- ")
+print(my_str)
+char = input("Enter character to replace- ")
+my_new_str = my_str.replace(char,"$")
+print(my_new_str)
